@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+    </head>
+	<body>
+		
+		<h1> C MUTIPLE CHOICE QUESTIONS</h1>
+		<form method="get" action="cpage.jsp">
+			
+<pre> 1.What is the output of this C code?
+
+  
+    void main()
+    {
+        int x = 1, y = 0, z = 5;
+        int a = x && y || z++;
+        printf("%d", z);
+    }</pre><br/>
+<input type="radio" name="ans1" value="6">6
+<input type="radio" name="ans1" value="5">5
+<input type="radio" name="ans1" value="0">0
+<input type="radio" name="ans1" value="varies">varies
+<br><br>
+<pre>2.What is the output of this C code?
+
+    void main()
+    {
+        int x = 1, z = 3;
+        int y = x << 3;
+        printf(" %d\n", y);
+    }</pre><br>
+<input type="radio" name="ans2" value="-2147483648">-2147483648
+<input type="radio" name="ans2" value="-1">-1
+<input type="radio" name="ans2" value="run time error">run time error
+<input type="radio" name="ans2" value="8">8
+<br><br>
+<pre>3.What is the output of this C code?
+
+  
+    void main()
+    {
+        static int x = 3;
+        x++;
+        if (x <= 5)
+        {
+            printf("hi");
+            main();
+        }
+    }</pre><br/>
+<input type="radio" name="ans3" value="Run time error">Run time error
+<input type="radio" name="ans3" value="hi">hi
+<input type="radio" name="ans3" value="infinite hi">infinite hi
+<input type="radio" name="ans3" value="hi hi">hi hi
+<br><br>
+<pre>4.What is the output of this C code?
+
+
+    struct student
+    {
+        char *name;
+    };
+    void main()
+    {
+        struct student s[2], r[2];
+        s[1] = s[0] = "alan";
+        printf("%s%s", s[0].name, s[1].name);
+    }</pre><br>
+ 
+<input type="radio" name="ans4" value="alan alan">alan alan
+<input type="radio" name="ans4" value="nothing">nothing
+<input type="radio" name="ans4" value="compile time error">compile time error
+<input type="radio" name="ans4" value="varies">varies
+<br><br>
+<pre>5.What is the output of this C code?
+
+  
+    #define max(a) a
+    int main()
+    {
+        int x = 1;
+        switch (x)
+        {
+        case max(2):
+            printf("yes\n");
+        case max(1):
+            printf("no\n");
+            break;
+        }
+    }</pre><br>
+ 
+<input type="radio" name="ans5" value="yes no">yes no
+<input type="radio" name="ans5" value="yes">yes
+<input type="radio" name="ans5" value="no">no
+<input type="radio" name="ans5" value="compile time error">compile time error
+
+
+
+			</br><input type="submit" value="SUBMIT" /><br/><br/><br/>
+			 
+		</form>
+		
+	</body>
+</html>
